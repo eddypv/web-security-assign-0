@@ -35,6 +35,7 @@
     "lint-fix": "standard --fix | snazzy",
     "test": "npm run lint && tape test/*.js | tap-spec",
     "learn-you-html": "learnyouhtml",
-    "javascripting":"javascripting"
+    "javascripting":"javascripting",
+    "learn-you-node":"learnyounode"
   }
 }
