@@ -10,7 +10,11 @@
   "bugs": {
     "url": "https://github.com/stanford-web-security/discussion/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "javascripting": "^2.7.4",
+    "learnyouhtml": "^1.0.2",
+    "learnyounode": "^4.2.2"
+  },
   "devDependencies": {
     "snazzy": "^9.0.0",
     "standard": "^16.0.3",
@@ -29,6 +33,7 @@
   "scripts": {
     "lint": "standard | snazzy",
     "lint-fix": "standard --fix | snazzy",
-    "test": "npm run lint && tape test/*.js | tap-spec"
+    "test": "npm run lint && tape test/*.js | tap-spec",
+    "learn-you-html": "learnyouhtml"
   }
 }
